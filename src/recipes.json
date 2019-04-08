@@ -1,0 +1,288 @@
+[
+  {
+    "title": "Huli Huli Chicken Bowl",
+    "img": "https://via.placeholder.com/500/555763.png",
+    "items": [
+      {
+        "name": "Green Onions",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Rice",
+        "quantity": 1.5,
+        "units": "cup"
+      },
+      {
+        "name": "Lime",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Slaw Mix",
+        "quantity": 8,
+        "units": "oz"
+      },
+      {
+        "name": "Light Mayo",
+        "quantity": 2,
+        "units": "oz"
+      },
+      {
+        "name": "Boneless Skinless Chicken Breast",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Teriyaki Sauce",
+        "quantity": 8,
+        "units": "fl oz"
+      },
+      {
+        "name": "Red Pepper Flakes",
+        "quantity": 1,
+        "units": "tbsp"
+      }
+    ]
+  },
+  {
+    "title": "Creamy Parmesan Steak Penne",
+    "img": "https://via.placeholder.com/500/555763.png",
+    "items": [
+      {
+        "name": "Green Onions",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Penne Pasta",
+        "quantity": 10,
+        "units": "oz"
+      },
+      {
+        "name": "Yellow Onion",
+        "quantity": 2,
+        "units": ""
+      },
+      {
+        "name": "Red Bell Pepper",
+        "quantity": 2,
+        "units": ""
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Steak Strips",
+        "quantity": 20,
+        "units": "oz"
+      },
+      {
+        "name": "Teriyaki Sauce",
+        "quantity": 8,
+        "units": "fl oz"
+      },
+      {
+        "name": "Light Cream",
+        "quantity": 8,
+        "units": "fl oz"
+      },
+      {
+        "name": "Grated Parmesan",
+        "quantity": 4,
+        "units": "oz"
+      },
+      {
+        "name": "Red Pepper Flakes",
+        "quantity": 1,
+        "units": "tbsp"
+      }
+    ]
+  },
+  {
+    "title": "Salmon with Dili Crema",
+    "img": "https://via.placeholder.com/500/555763.png",
+    "items": [
+      {
+        "name": "Dile",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Green Beans",
+        "quantity": 24,
+        "units": "oz"
+      },
+      {
+        "name": "Lime",
+        "quantity": 2,
+        "units": ""
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Salmon",
+        "quantity": 24,
+        "units": "oz"
+      },
+      {
+        "name": "Teriyaki Sauce",
+        "quantity": 8,
+        "units": "fl oz"
+      },
+      {
+        "name": "Sour Cream",
+        "quantity": 2,
+        "units": "oz"
+      },
+      {
+        "name": "Grated Parmesan",
+        "quantity": 4,
+        "units": "oz"
+      }
+    ]
+  },
+  {
+    "title": "Spaghetti and Ricotta Meatballs",
+    "img": "https://via.placeholder.com/500/555763.png",
+    "items": [
+      {
+        "name": "Dile",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Green Beans",
+        "quantity": 24,
+        "units": "oz"
+      },
+      {
+        "name": "Lime",
+        "quantity": 2,
+        "units": ""
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Salmon",
+        "quantity": 24,
+        "units": "oz"
+      },
+      {
+        "name": "Teriyaki Sauce",
+        "quantity": 8,
+        "units": "fl oz"
+      },
+      {
+        "name": "Sour Cream",
+        "quantity": 2,
+        "units": "oz"
+      },
+      {
+        "name": "Grated Parmesan",
+        "quantity": 4,
+        "units": "oz"
+      }
+    ]
+  },
+  {
+    "title": "Orange Garlic Shrimp",
+    "img": "https://via.placeholder.com/500/555763.png",
+    "items": [
+      {
+        "name": "Dile",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Green Beans",
+        "quantity": 24,
+        "units": "oz"
+      },
+      {
+        "name": "Lime",
+        "quantity": 2,
+        "units": ""
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Salmon",
+        "quantity": 24,
+        "units": "oz"
+      },
+      {
+        "name": "Teriyaki Sauce",
+        "quantity": 8,
+        "units": "fl oz"
+      },
+      {
+        "name": "Sour Cream",
+        "quantity": 2,
+        "units": "oz"
+      },
+      {
+        "name": "Grated Parmesan",
+        "quantity": 4,
+        "units": "oz"
+      }
+    ]
+  },
+  {
+    "title": "Baja Fish Tacos ",
+    "img": "https://via.placeholder.com/500/555763.png",
+    "items": [
+      {
+        "name": "Dile",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Green Beans",
+        "quantity": 24,
+        "units": "oz"
+      },
+      {
+        "name": "Lime",
+        "quantity": 2,
+        "units": ""
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "units": ""
+      },
+      {
+        "name": "Salmon",
+        "quantity": 24,
+        "units": "oz"
+      },
+      {
+        "name": "Teriyaki Sauce",
+        "quantity": 8,
+        "units": "fl oz"
+      },
+      {
+        "name": "Sour Cream",
+        "quantity": 2,
+        "units": "oz"
+      },
+      {
+        "name": "Grated Parmesan",
+        "quantity": 4,
+        "units": "oz"
+      }
+    ]
+  }
+]
