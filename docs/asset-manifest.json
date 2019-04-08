@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.79abe6a5.chunk.css",
-  "main.js": "/static/js/main.5d77eef1.chunk.js",
-  "main.js.map": "/static/js/main.5d77eef1.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.c5541365.js",
-  "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
-  "static/js/2.64246944.chunk.js": "/static/js/2.64246944.chunk.js",
-  "static/js/2.64246944.chunk.js.map": "/static/js/2.64246944.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.381c8ad61758aa288cf782c4cf7ebeb1.js": "/precache-manifest.381c8ad61758aa288cf782c4cf7ebeb1.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.79abe6a5.chunk.css.map": "/static/css/main.79abe6a5.chunk.css.map"
+  "main.css": "/smart-fooding/static/css/main.79abe6a5.chunk.css",
+  "main.js": "/smart-fooding/static/js/main.8073208c.chunk.js",
+  "main.js.map": "/smart-fooding/static/js/main.8073208c.chunk.js.map",
+  "runtime~main.js": "/smart-fooding/static/js/runtime~main.3b996a22.js",
+  "runtime~main.js.map": "/smart-fooding/static/js/runtime~main.3b996a22.js.map",
+  "static/js/2.64246944.chunk.js": "/smart-fooding/static/js/2.64246944.chunk.js",
+  "static/js/2.64246944.chunk.js.map": "/smart-fooding/static/js/2.64246944.chunk.js.map",
+  "index.html": "/smart-fooding/index.html",
+  "precache-manifest.801026b5ef0d5ebee7a72ff2b1d7c735.js": "/smart-fooding/precache-manifest.801026b5ef0d5ebee7a72ff2b1d7c735.js",
+  "service-worker.js": "/smart-fooding/service-worker.js",
+  "static/css/main.79abe6a5.chunk.css.map": "/smart-fooding/static/css/main.79abe6a5.chunk.css.map"
 }
