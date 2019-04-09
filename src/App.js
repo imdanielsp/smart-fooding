@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Navbar, Nav, Button, Form, Container, Card, ListGroup, Row, Col, Modal } from "react-bootstrap";
 import Recipes from "./recipes";
+import ConstantItems from "./constantItems";
 
 let defaultNumOfRecipes = Recipes.length > 12 ? 12 : Recipes.length;
 
@@ -28,10 +29,17 @@ const generateRecipes = (numOfRecipes) => {
 };
 
 const bundleIngredients = ingredients => {
-  return ingredients.reduce((prev, curr) => {
+  return ingredients
+  .concat(
+    ConstantItems.map(title => {
+      return { title, items: [ {"name": title, "quantity": "", "units": "" } ] }
+    }
+  ))
+  .reduce((prev, curr) => {
     prev.push(curr.items);
     return prev.flat();
-  }, []).reduce((prev, curr) => {
+  }, [])
+  .reduce((prev, curr) => {
     if (prev.has(curr.name)) {
       prev.get(curr.name).quantity += curr.quantity;
     } else {
