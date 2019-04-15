@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/smart-fooding/precache-manifest.1bf6f51256a56efc138eafc361935626.js"
+  "/smart-fooding/precache-manifest.9748138d6a32c90e61b6ee8f93c9e8b2.js"
 );
 
 workbox.clientsClaim();
