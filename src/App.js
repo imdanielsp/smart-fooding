@@ -6,6 +6,7 @@ import Recipes from "./recipes";
 import ConstantItems from "./constantItems";
 
 let defaultNumOfRecipes = Recipes.length > 12 ? 12 : Recipes.length;
+let defaultRecipeFactor = 1;
 
 const generateRecipes = (numOfRecipes) => {
   if (numOfRecipes > Recipes.length || numOfRecipes <= 0) {
@@ -76,7 +77,7 @@ const renderRecipe = (recipe, idx) => {
   )
 };
 
-const renderIngredientsList = (ingredients, storage) => {
+const renderIngredientsList = (ingredients, factor, storage) => {
   return (
     <div id="ingredients">{
       Array.from(ingredients).map((ingredient, idx) => {
@@ -86,7 +87,7 @@ const renderIngredientsList = (ingredients, storage) => {
             value={ingredient[1].name}
             onClick={evt => storage.setItem(evt.target.value, evt.target.checked ? "checked" : "unchecked")}
             defaultChecked={storage.getItem(ingredient[1].name) === "checked" ? true : false}
-            label={`${ingredient[1].quantity} ${ingredient[1].units} ${ingredient[1].name}`} />
+            label={`${ingredient[1].quantity * factor} ${ingredient[1].units} ${ingredient[1].name}`} />
         );
       })
     }
@@ -108,10 +109,14 @@ class App extends Component {
     }
 
     defaultNumOfRecipes = this.storage.getItem('numOfRecipes') ?
-      parseInt(this.storage.getItem('numOfRecipes')) : defaultNumOfRecipes
+    parseInt(this.storage.getItem('numOfRecipes')) : defaultNumOfRecipes;
+
+    defaultRecipeFactor = this.storage.getItem('recipeFactor') ?
+    parseInt(this.storage.getItem('recipeFactor')) : defaultRecipeFactor;
 
     this.state = {
       numOfRecipes: defaultNumOfRecipes,
+      recipeFactor: defaultRecipeFactor,
       recipes: recipes,
       showIndregients: false,
       ingredientsList: []
@@ -137,6 +142,11 @@ class App extends Component {
   handleNumOfRecipesChanged(evt) {
     this.storage.setItem('numOfRecipes', evt.target.value + "");
     this.setState({ numOfRecipes: parseInt(evt.target.value) });
+  }
+
+  handleRecipeFactorChanged(evt) {
+    this.storage.setItem('recipeFactor', evt.target.value + "");
+    this.setState({ recipeFactor: parseInt(evt.target.value) });
   }
 
   handleShowIngredients() {
@@ -190,6 +200,10 @@ class App extends Component {
                   <Form.Control onChange={this.handleNumOfRecipesChanged.bind(this)} type="number" placeholder={this.state.numOfRecipes} className="mr-sm-2" />
                   <Button onClick={this.handleNewList.bind(this)} variant="outline-success">New List</Button>
                 </Form.Group>
+                <Form.Group controlId="recipeFactor">
+                  <Form.Label style={{ marginLeft: 10, marginRight: 10 }}>Increment Factor:</Form.Label>
+                  <Form.Control onChange={this.handleRecipeFactorChanged.bind(this)} type="number" placeholder={this.state.recipeFactor} className="mr-sm-2" />
+                </Form.Group>
               </Form>
             </Nav>
             <Button onClick={this.handleShowIngredients.bind(this)}>Show Ingredients</Button>
@@ -206,7 +220,7 @@ class App extends Component {
           </Modal.Header>
           <Modal.Body>
             {
-              renderIngredientsList(this.state.ingredientsList, this.storage)
+              renderIngredientsList(this.state.ingredientsList, this.state.recipeFactor, this.storage)
             }
           </Modal.Body>
           <Modal.Footer>
