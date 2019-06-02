@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f8e0098d6e60db9466c0",
+    "revision": "b2913c6db52c6f52b3e5",
     "url": "/smart-fooding/static/css/main.79abe6a5.chunk.css"
   },
   {
-    "revision": "f8e0098d6e60db9466c0",
-    "url": "/smart-fooding/static/js/main.fb22e549.chunk.js"
+    "revision": "b2913c6db52c6f52b3e5",
+    "url": "/smart-fooding/static/js/main.45569881.chunk.js"
   },
   {
     "revision": "f236d9b7bdef1fa9a311",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/smart-fooding/static/js/2.2cde46cb.chunk.js"
   },
   {
-    "revision": "b19412c0e55186748295c3a6e9926f8a",
+    "revision": "2e35372cb5e9891b0deb117924b612fb",
     "url": "/smart-fooding/index.html"
   }
 ];
