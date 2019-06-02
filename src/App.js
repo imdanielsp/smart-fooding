@@ -66,7 +66,7 @@ const renderRecipe = (recipe, idx) => {
   return (
     <Col key={idx}>
       <Card style={{ width: '18rem', marginTop: 15 }}>
-        {/* <Card.Img variant="top" src={recipe.img} /> */}
+        <Card.Img variant="top" src={recipe.img} />
         <Card.Body>
           <Card.Title>{recipe.title}</Card.Title>
           <Card.Header>Ingredients</Card.Header>
@@ -87,7 +87,7 @@ const renderIngredientsList = (ingredients, factor, storage) => {
             value={ingredient[1].name}
             onClick={evt => storage.setItem(evt.target.value, evt.target.checked ? "checked" : "unchecked")}
             defaultChecked={storage.getItem(ingredient[1].name) === "checked" ? true : false}
-            label={`${ingredient[1].quantity * factor} ${ingredient[1].units} ${ingredient[1].name}`} />
+            label={`${(ingredient[1].quantity * factor) == 0 ? "" : ingredient[1].quantity * factor } ${ingredient[1].units} ${ingredient[1].name}`} />
         );
       })
     }

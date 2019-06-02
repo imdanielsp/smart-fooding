@@ -14,7 +14,7 @@
         "units": "cup"
       },
       {
-        "name": "Lime",
+        "name": "Lemon",
         "quantity": 4,
         "units": ""
       },
@@ -116,7 +116,7 @@
         "units": "oz"
       },
       {
-        "name": "Lime",
+        "name": "Lemon",
         "quantity": 2,
         "units": ""
       },
@@ -264,7 +264,7 @@
         "units": "oz"
       },
       {
-        "name": "Lime",
+        "name": "Lemon",
         "quantity": 4,
         "units": ""
       },
@@ -435,6 +435,154 @@
         "name": "Spaghetti",
         "quantity": 16,
         "units": "oz"
+      }
+    ]
+  },
+  {
+    "title": "Buffalo Chicken Lettuce Wraps",
+    "img": "https://hips.hearstapps.com/vidthumb/images/delish-buffalo-chicken-lettuce-wraps-still002-1522761861.jpg",
+    "items": [
+      {
+        "name": "Unsalted Butter",
+        "quantity": 2,
+        "units": "tbsp"
+      },
+      {
+        "name": "Hot Sauce",
+        "quantity": 0.3,
+        "units": "c"
+      },
+      {
+        "name": "Honey",
+        "quantity": 1,
+        "units": "tbsp"
+      },
+      {
+        "name": "Boneless Skinless Chicken Breast",
+        "quantity": 4,
+        "units": "cup"
+      },
+      {
+        "name": "Large Butterhead Lettuce Leaves",
+        "quantity": 8,
+        "units": ""
+      },
+      {
+        "name": "Celery",
+        "quantity": 2,
+        "units": ""
+      },
+      {
+        "name": "Blue Cheese",
+        "quantity": 0.5,
+        "units": "cup"
+      },
+      {
+        "name": "Ranch",
+        "quantity": 0.25,
+        "units": "cup"
+      },
+      {
+        "name": "Chives",
+        "quantity": 1,
+        "units": "tbsp"
+      }
+    ]
+  },
+  {
+    "title": "Creamy Lemon Pepper Shrimp Spaghetti",
+    "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-mccormick-creamylemonpeppershrimpspaghetti-horizontal-1558107705.png",
+    "items": [
+      {
+        "name": "Spaghetti",
+        "quantity": 16,
+        "units": "oz"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": 2,
+        "units": "tbsp"
+      },
+      {
+        "name": "Shrimp",
+        "quantity": 14,
+        "units": "oz"
+      },
+      {
+        "name": "Lemon",
+        "quantity": 1,
+        "units": ""
+      },
+      {
+        "name": "Butter",
+        "quantity": 2,
+        "units": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 3,
+        "units": ""
+      },
+      {
+        "name": "Cream Cheese",
+        "quantity": 8,
+        "units": "oz"
+      },
+      {
+        "name": "Parsley",
+        "quantity": 0.25,
+        "units": "cup"
+      }
+    ]
+  },
+  {
+    "title": "Sweet Potato and Black Bean Quinoa Bowls",
+    "img": "https://www.spoonfulofflavor.com/wp-content/uploads/2013/03/SweetPotatoandBlackBeanQuinoaBowls2-525x700.jpg",
+    "items": [
+      {
+        "name": "Sweet Potato",
+        "quantity": 2,
+        "units": ""
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": 1,
+        "units": "tbsp"
+      },
+      {
+        "name": "Red Quinoa",
+        "quantity": 0.75,
+        "units": "cup"
+      },
+      {
+        "name": "Lemon",
+        "quantity": 1,
+        "units": ""
+      },
+      {
+        "name": "Cilantro",
+        "quantity": 1,
+        "units": ""
+      },
+      {
+        "name": "Greek Yogurt",
+        "quantity": 0.25,
+        "units": "cup"
+      },
+      {
+        "name": "Honey",
+        "quantity": 0.25,
+        "units": "tbsp"
+      },
+      {
+        "name": "Black Beens",
+        "quantity": 1,
+        "units": "cup"
+      },
+      {
+        "name": "Lime",
+        "quantity": 2,
+        "units": ""
       }
     ]
   }
