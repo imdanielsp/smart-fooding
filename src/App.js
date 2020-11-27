@@ -2,8 +2,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Navbar, Nav, Button, Form, Container, Card, ListGroup, Row, Col, Modal } from "react-bootstrap";
-import Recipes from "./recipes.yml";
-import ConstantItems from "./constantItems.yml";
+import ConstantItems from "./resources/constantItems.yml";
+
+// Loads all the recipes in resources/recipes
+const importAll = requireContext => requireContext.keys().flatMap((key) => requireContext(key));
+const Recipes = importAll(require.context('./resources/recipes', false, /.yml$/));
 
 let defaultNumOfRecipes = Recipes.length > 12 ? 12 : Recipes.length;
 let defaultRecipeFactor = 1;

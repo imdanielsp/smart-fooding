@@ -1,0 +1,12 @@
+- title: Carbonara
+  img: https://via.placeholder.com/500/555763.png
+  items:
+  - name: Grated Parmesan
+    quantity: 3
+    units: tbsp
+  - name: Pancetta
+    quantity: 0.5
+    units: cup
+  - name: Spaghetti
+    quantity: 16
+    units: oz

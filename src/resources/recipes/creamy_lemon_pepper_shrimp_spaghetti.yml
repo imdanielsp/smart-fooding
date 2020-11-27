@@ -1,0 +1,27 @@
+- title: Creamy Lemon Pepper Shrimp Spaghetti
+  img: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-mccormick-creamylemonpeppershrimpspaghetti-horizontal-1558107705.png
+  items:
+  - name: Spaghetti
+    quantity: 16
+    units: oz
+  - name: Olive Oil
+    quantity: 2
+    units: tbsp
+  - name: Shrimp
+    quantity: 14
+    units: oz
+  - name: Lemon
+    quantity: 1
+    units: ''
+  - name: Butter
+    quantity: 2
+    units: tbsp
+  - name: Garlic
+    quantity: 3
+    units: ''
+  - name: Cream Cheese
+    quantity: 8
+    units: oz
+  - name: Parsley
+    quantity: 0.25
+    units: cup

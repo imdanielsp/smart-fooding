@@ -1,0 +1,30 @@
+- title: Buffalo Chicken Lettuce Wraps
+  img: https://hips.hearstapps.com/vidthumb/images/delish-buffalo-chicken-lettuce-wraps-still002-1522761861.jpg
+  items:
+  - name: Unsalted Butter
+    quantity: 2
+    units: tbsp
+  - name: Hot Sauce
+    quantity: 0.3
+    units: c
+  - name: Honey
+    quantity: 1
+    units: tbsp
+  - name: Boneless Skinless Chicken Breast
+    quantity: 4
+    units: cup
+  - name: Large Butterhead Lettuce Leaves
+    quantity: 8
+    units: ''
+  - name: Celery
+    quantity: 2
+    units: ''
+  - name: Blue Cheese
+    quantity: 0.5
+    units: cup
+  - name: Ranch
+    quantity: 0.25
+    units: cup
+  - name: Chives
+    quantity: 1
+    units: tbsp

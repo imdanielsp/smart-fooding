@@ -1,0 +1,30 @@
+- title: Orange Garlic Shrimp
+  img: https://via.placeholder.com/500/555763.png
+  items:
+  - name: Green Onions
+    quantity: 4
+    units: ''
+  - name: Rice
+    quantity: 1
+    units: cup
+  - name: Carrots
+    quantity: 6
+    units: oz
+  - name: Garlic
+    quantity: 4
+    units: ''
+  - name: Baby Bokchoy
+    quantity: 4
+    units: ''
+  - name: Orange Sauce
+    quantity: 6
+    units: fl oz
+  - name: Shrimps
+    quantity: 16
+    units: oz
+  - name: Soy Sauce
+    quantity: 4
+    units: oz
+  - name: Cornstarch
+    quantity: 6
+    units: tbsp

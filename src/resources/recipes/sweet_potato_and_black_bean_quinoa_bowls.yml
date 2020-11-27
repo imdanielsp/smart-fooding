@@ -1,0 +1,30 @@
+- title: Sweet Potato and Black Bean Quinoa Bowls
+  img: https://www.spoonfulofflavor.com/wp-content/uploads/2013/03/SweetPotatoandBlackBeanQuinoaBowls2-525x700.jpg
+  items:
+  - name: Sweet Potato
+    quantity: 2
+    units: ''
+  - name: Olive Oil
+    quantity: 1
+    units: tbsp
+  - name: Red Quinoa
+    quantity: 0.75
+    units: cup
+  - name: Lemon
+    quantity: 1
+    units: ''
+  - name: Cilantro
+    quantity: 1
+    units: ''
+  - name: Greek Yogurt
+    quantity: 0.25
+    units: cup
+  - name: Honey
+    quantity: 0.25
+    units: tbsp
+  - name: Black Beens
+    quantity: 1
+    units: cup
+  - name: Lime
+    quantity: 2
+    units: ''

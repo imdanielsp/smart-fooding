@@ -1,0 +1,30 @@
+- title: Spaghetti and Ricotta Meatballs
+  img: https://via.placeholder.com/500/555763.png
+  items:
+  - name: Pecorino Cheese
+    quantity: 1
+    units: oz
+  - name: Parsley
+    quantity: 1
+    units: oz
+  - name: French Roll
+    quantity: 2
+    units: ''
+  - name: Garlic
+    quantity: 4
+    units: ''
+  - name: Ground Beef
+    quantity: 20
+    units: oz
+  - name: Ricotta Cheese
+    quantity: 4
+    units: oz
+  - name: Italian Breadcrumbs
+    quantity: 1
+    units: cup
+  - name: Spaghetti
+    quantity: 10
+    units: oz
+  - name: Marinata Saauce
+    quantity: 16
+    units: fl oz

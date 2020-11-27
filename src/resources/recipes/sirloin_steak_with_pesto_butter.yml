@@ -1,0 +1,21 @@
+- title: Sirloin Streak with Pesto Butter
+  img: https://via.placeholder.com/500/555763.png
+  items:
+  - name: Butter
+    quantity: 2
+    units: oz
+  - name: Orzo Pasta
+    quantity: 8
+    units: oz
+  - name: Carrots
+    quantity: 16
+    units: oz
+  - name: Sirloin Steak
+    quantity: 4
+    units: oz
+  - name: Grated Parmesan
+    quantity: 2
+    units: oz
+  - name: Basil Pesto
+    quantity: 2
+    units: tbsp

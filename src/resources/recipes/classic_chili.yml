@@ -1,0 +1,45 @@
+- title: Classic Chili
+  img: https://via.placeholder.com/500/555763.png
+  items:
+  - name: Yellow Onion
+    quantity: 1
+    units: ''
+  - name: Ground Beef
+    quantity: 16
+    units: oz
+  - name: Chili Powder
+    quantity: 2.5
+    units: tbsp
+  - name: Ground Cumin
+    quantity: 2
+    units: tbsp
+  - name: Sugar
+    quantity: 2
+    units: tbsp
+  - name: Tomato Paste
+    quantity: 2
+    units: tbsp
+  - name: Garlic
+    quantity: 1
+    units: ''
+  - name: Salt
+    quantity: 1
+    units: tbsp
+  - name: Ground Pepper
+    quantity: 0.5
+    units: tbsp
+  - name: Beef Broth
+    quantity: 1.5
+    units: cup
+  - name: Diced Tomatoes
+    quantity: 15
+    units: oz
+  - name: Red Kidney Beans
+    quantity: 1
+    units: can
+  - name: Tomato Sauce
+    quantity: 1
+    units: can
+  - name: French Fries
+    quantity: 8
+    units: oz

@@ -1,0 +1,27 @@
+- title: Huli Huli Chicken Bowl
+  img: https://via.placeholder.com/500/555763.png
+  items:
+  - name: Green Onions
+    quantity: 4
+    units: ''
+  - name: Rice
+    quantity: 1.5
+    units: cup
+  - name: Lemon
+    quantity: 4
+    units: ''
+  - name: Slaw Mix
+    quantity: 8
+    units: oz
+  - name: Light Mayo
+    quantity: 2
+    units: oz
+  - name: Boneless Skinless Chicken Breast
+    quantity: 4
+    units: ''
+  - name: Teriyaki Sauce
+    quantity: 8
+    units: fl oz
+  - name: Red Pepper Flakes
+    quantity: 1
+    units: tbsp

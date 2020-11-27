@@ -1,0 +1,42 @@
+- title: Baja Fish Tacos
+  img: https://via.placeholder.com/500/555763.png
+  items:
+  - name: Shallot
+    quantity: 2
+    units: ''
+    category: Veggie
+  - name: Cilantro
+    quantity: 1
+    units: oz
+    category: Veggie
+  - name: Lemon
+    quantity: 4
+    units: ''
+    category: Fruit
+  - name: Cilantro
+    quantity: 1
+    units: oz
+    category: Veggie
+  - name: Tilapia
+    quantity: 24
+    units: oz
+    category: Sea Food
+  - name: Slaw Mix
+    quantity: 8
+    units: oz
+    category: Veggie
+  - name: Mayo
+    quantity: 3
+    units: oz
+    category: 
+  - name: Temperatura Mix
+    quantity: 1.5
+    units: oz
+    category: Sauce
+  - name: Tortilla
+    quantity: 12
+    units: ''
+  - name: Canola Oil
+    quantity: 16
+    units: fl oz
+    category: Oil

@@ -1,0 +1,27 @@
+- title: Salmon with Dili Crema
+  img: https://via.placeholder.com/500/555763.png
+  items:
+  - name: Dile
+    quantity: 4
+    units: ''
+  - name: Green Beans
+    quantity: 24
+    units: oz
+  - name: Lemon
+    quantity: 2
+    units: ''
+  - name: Garlic
+    quantity: 4
+    units: ''
+  - name: Salmon
+    quantity: 24
+    units: oz
+  - name: Teriyaki Sauce
+    quantity: 8
+    units: fl oz
+  - name: Sour Cream
+    quantity: 2
+    units: oz
+  - name: Grated Parmesan
+    quantity: 4
+    units: oz

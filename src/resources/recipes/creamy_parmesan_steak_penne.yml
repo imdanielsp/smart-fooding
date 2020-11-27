@@ -1,0 +1,33 @@
+- title: Creamy Parmesan Steak Penne
+  img: https://via.placeholder.com/500/555763.png
+  items:
+  - name: Green Onions
+    quantity: 4
+    units: ''
+  - name: Penne Pasta
+    quantity: 10
+    units: oz
+  - name: Yellow Onion
+    quantity: 2
+    units: ''
+  - name: Red Bell Pepper
+    quantity: 2
+    units: ''
+  - name: Garlic
+    quantity: 4
+    units: ''
+  - name: Steak Strips
+    quantity: 20
+    units: oz
+  - name: Teriyaki Sauce
+    quantity: 8
+    units: fl oz
+  - name: Light Cream
+    quantity: 8
+    units: fl oz
+  - name: Grated Parmesan
+    quantity: 4
+    units: oz
+  - name: Red Pepper Flakes
+    quantity: 1
+    units: tbsp
