@@ -1,20 +1,28 @@
----
-- Cereal
-- Milk
-- Eggs
-- Ham
-- Cheese
-- Hummus
-- Snack Bars
-- Resuelve (Change the name LOL)
-- Half and Half
-- Almonds
-- Bread
-- Coffee
-- Oil
-- Plantain
-- Yucca
-- Salami
-- Avocado
-- Banana
-- Pineapple
+- name: Eggs
+  category: Dairy
+- name: Cereal
+- name: Milk
+  category: Dairy
+- name: Ham
+  category: Meat
+- name: Cheese
+  category: Dairy
+- name: Hummus
+- name: Snack Bars
+- name: Crackers
+- name: Half and Half
+  category: Dairy
+- name: Almond
+- name: Bread
+- name: Oil
+  category: Oil
+- name: Plantain
+- name: Yucca
+- name: Salami
+  category: Meat
+- name: Avocado
+  category: Fruit
+- name: Banana
+  category: Fruit
+- name: Pineapple
+  category: Fruit

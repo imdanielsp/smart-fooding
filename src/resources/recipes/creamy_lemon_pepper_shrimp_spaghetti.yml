@@ -4,24 +4,32 @@
   - name: Spaghetti
     quantity: 16
     units: oz
+    category: Pasta
   - name: Olive Oil
     quantity: 2
     units: tbsp
+    category: Oil
   - name: Shrimp
     quantity: 14
     units: oz
+    category: Sea Food
   - name: Lemon
     quantity: 1
     units: ''
+    category: Fruit
   - name: Butter
     quantity: 2
     units: tbsp
+    category: Dairy
   - name: Garlic
     quantity: 3
     units: ''
+    category: Veggie
   - name: Cream Cheese
     quantity: 8
     units: oz
+    category: Dairy
   - name: Parsley
     quantity: 0.25
     units: cup
+    category: Veggie

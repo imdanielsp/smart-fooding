@@ -4,27 +4,34 @@
   - name: Pecorino Cheese
     quantity: 1
     units: oz
+    category: Dairy
   - name: Parsley
     quantity: 1
     units: oz
+    category: Veggie
   - name: French Roll
     quantity: 2
     units: ''
   - name: Garlic
     quantity: 4
     units: ''
+    category: Veggie
   - name: Ground Beef
     quantity: 20
     units: oz
+    category: Meat
   - name: Ricotta Cheese
     quantity: 4
     units: oz
+    category: Dairy
   - name: Italian Breadcrumbs
     quantity: 1
     units: cup
   - name: Spaghetti
     quantity: 10
     units: oz
+    category: Pasta
   - name: Marinata Saauce
     quantity: 16
     units: fl oz
+    category: Sauce

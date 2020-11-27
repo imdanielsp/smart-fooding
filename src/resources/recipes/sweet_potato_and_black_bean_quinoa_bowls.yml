@@ -7,24 +7,30 @@
   - name: Olive Oil
     quantity: 1
     units: tbsp
+    category: Oil
   - name: Red Quinoa
     quantity: 0.75
     units: cup
   - name: Lemon
     quantity: 1
     units: ''
+    category: Fruit
   - name: Cilantro
     quantity: 1
     units: ''
+    category: Veggie
   - name: Greek Yogurt
     quantity: 0.25
     units: cup
+    category: Dairy
   - name: Honey
     quantity: 0.25
     units: tbsp
   - name: Black Beens
     quantity: 1
     units: cup
+    category: Canned
   - name: Lime
     quantity: 2
     units: ''
+    category: Fruit

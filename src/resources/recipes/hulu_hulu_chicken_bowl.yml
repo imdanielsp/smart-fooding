@@ -4,24 +4,31 @@
   - name: Green Onions
     quantity: 4
     units: ''
+    category: Veggie
   - name: Rice
     quantity: 1.5
     units: cup
   - name: Lemon
     quantity: 4
     units: ''
+    category: Fruit
   - name: Slaw Mix
     quantity: 8
     units: oz
-  - name: Light Mayo
+    category: 
+  - name: Mayo
     quantity: 2
     units: oz
+    category: Sauce
   - name: Boneless Skinless Chicken Breast
     quantity: 4
     units: ''
+    category: Meat
   - name: Teriyaki Sauce
     quantity: 8
     units: fl oz
+    category: Sauce
   - name: Red Pepper Flakes
     quantity: 1
     units: tbsp
+    category: Spice

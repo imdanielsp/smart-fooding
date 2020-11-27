@@ -35,8 +35,8 @@ const generateRecipes = (numOfRecipes) => {
 const bundleIngredients = ingredients => {
   return ingredients
   .concat(
-    ConstantItems.map(title => {
-      return { title, items: [ {"name": title, "quantity": "", "units": "" } ] }
+    ConstantItems.map(item => {
+      return { title: item.name, items: [ {"name": item.name, "quantity": "", "units": "", category: item.category } ] }
     }
   ))
   .reduce((prev, curr) => {
@@ -80,17 +80,48 @@ const renderRecipe = (recipe, idx) => {
   )
 };
 
+const sortByCategories = (ingredients) => {
+  const categoryList = {};
+  ingredients.forEach((entry) => {
+    const category = entry.category ? entry.category : "Others";
+    if (categoryList[category] !== undefined) {
+      categoryList[category].push(entry);
+    } else {
+      categoryList[category] = [ entry ];
+    }
+  });
+
+  return categoryList;
+}
+
+// Keeps "Others" at the end
+const categorySortStrategy = (keys) => {
+  if (keys.length === 0) return []
+  const othersIdx = keys.indexOf("Others");
+  keys.splice(othersIdx, 1);
+  return [...keys.sort(), "Others"];
+}
+
 const renderIngredientsList = (ingredients, factor, storage) => {
+  const byCategoryList = sortByCategories(ingredients);
+
   return (
     <div id="ingredients">{
-      Array.from(ingredients).map((ingredient, idx) => {
+      categorySortStrategy(Object.keys(byCategoryList)).map((category) => {
         return (
-          <Form.Check key={idx}
-            type="checkbox"
-            value={ingredient[1].name}
-            onClick={evt => storage.setItem(evt.target.value, evt.target.checked ? "checked" : "unchecked")}
-            defaultChecked={storage.getItem(ingredient[1].name) === "checked" ? true : false}
-            label={`${(ingredient[1].quantity * factor) === 0 ? "" : ingredient[1].quantity * factor } ${ingredient[1].units} ${ingredient[1].name}`} />
+        <div key={category}>
+          <Modal.Title>{category}</Modal.Title>
+          { byCategoryList[category].sort((a, b) => a.name > b.name ? 1 : -1).map((ingredient, idx) => {
+              return (
+                <Form.Check key={idx}
+                  type="checkbox"
+                  value={ingredient.name}
+                  onClick={evt => storage.setItem(evt.target.value, evt.target.checked ? "checked" : "unchecked")}
+                  defaultChecked={storage.getItem(ingredient.name) === "checked" ? true : false}
+                  label={`${ingredient.name} ${(ingredient.quantity * factor) === 0 ? "" : ingredient.quantity * factor } ${ingredient.units} `} />
+              );
+          })}
+        </div>
         );
       })
     }

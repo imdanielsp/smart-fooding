@@ -7,21 +7,28 @@
   - name: Green Beans
     quantity: 24
     units: oz
+    category: Veggie
   - name: Lemon
     quantity: 2
     units: ''
+    category: Fruit
   - name: Garlic
     quantity: 4
     units: ''
+    category: Veggie
   - name: Salmon
     quantity: 24
     units: oz
+    category: Sea Food
   - name: Teriyaki Sauce
     quantity: 8
     units: fl oz
+    category: Sauce
   - name: Sour Cream
     quantity: 2
     units: oz
+    category: Sauce
   - name: Grated Parmesan
     quantity: 4
     units: oz
+    category: Dairy

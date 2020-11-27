@@ -4,27 +4,34 @@
   - name: Green Onions
     quantity: 4
     units: ''
+    category: Veggie
   - name: Rice
     quantity: 1
     units: cup
   - name: Carrots
     quantity: 6
     units: oz
+    category: Veggie
   - name: Garlic
     quantity: 4
     units: ''
+    category: Veggie
   - name: Baby Bokchoy
     quantity: 4
     units: ''
+    category: Veggie
   - name: Orange Sauce
     quantity: 6
     units: fl oz
+    category: Sauce
   - name: Shrimps
     quantity: 16
     units: oz
+    category: Sea Food
   - name: Soy Sauce
     quantity: 4
     units: oz
+    category: Sauce
   - name: Cornstarch
     quantity: 6
     units: tbsp

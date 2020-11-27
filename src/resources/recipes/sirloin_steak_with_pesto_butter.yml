@@ -4,18 +4,24 @@
   - name: Butter
     quantity: 2
     units: oz
+    category: Dairy
   - name: Orzo Pasta
     quantity: 8
     units: oz
+    category: Pasta
   - name: Carrots
     quantity: 16
     units: oz
+    category: Veggie
   - name: Sirloin Steak
     quantity: 4
     units: oz
+    category: Meat
   - name: Grated Parmesan
     quantity: 2
     units: oz
+    category: Dairy
   - name: Basil Pesto
     quantity: 2
     units: tbsp
+    category: Veggie

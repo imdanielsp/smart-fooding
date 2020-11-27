@@ -4,42 +4,53 @@
   - name: Yellow Onion
     quantity: 1
     units: ''
+    category: Veggie
   - name: Ground Beef
     quantity: 16
     units: oz
+    category: Meat
   - name: Chili Powder
     quantity: 2.5
     units: tbsp
+    category: Spices
   - name: Ground Cumin
     quantity: 2
     units: tbsp
+    category: Spices
   - name: Sugar
     quantity: 2
     units: tbsp
   - name: Tomato Paste
     quantity: 2
     units: tbsp
+    category: Sauce
   - name: Garlic
     quantity: 1
     units: ''
+    category: Veggie
   - name: Salt
     quantity: 1
     units: tbsp
+    category: Spices
   - name: Ground Pepper
     quantity: 0.5
     units: tbsp
+    category: Spices
   - name: Beef Broth
     quantity: 1.5
     units: cup
   - name: Diced Tomatoes
     quantity: 15
     units: oz
+    category: Veggie
   - name: Red Kidney Beans
     quantity: 1
     units: can
+    category: Canned
   - name: Tomato Sauce
     quantity: 1
     units: can
+    category: Canned
   - name: French Fries
     quantity: 8
     units: oz

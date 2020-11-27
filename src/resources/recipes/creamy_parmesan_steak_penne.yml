@@ -4,30 +4,40 @@
   - name: Green Onions
     quantity: 4
     units: ''
+    category: Veggie
   - name: Penne Pasta
     quantity: 10
     units: oz
+    category: Pasta
   - name: Yellow Onion
     quantity: 2
     units: ''
+    category: Veggie
   - name: Red Bell Pepper
     quantity: 2
     units: ''
+    category: Veggie
   - name: Garlic
     quantity: 4
     units: ''
+    category: Veggie
   - name: Steak Strips
     quantity: 20
     units: oz
+    category: Meat
   - name: Teriyaki Sauce
     quantity: 8
     units: fl oz
+    category: Sauce
   - name: Light Cream
     quantity: 8
     units: fl oz
+    category: Dairy
   - name: Grated Parmesan
     quantity: 4
     units: oz
+    category: Dairy
   - name: Red Pepper Flakes
     quantity: 1
     units: tbsp
+    category: Spices

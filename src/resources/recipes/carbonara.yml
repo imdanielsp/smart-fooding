@@ -4,9 +4,12 @@
   - name: Grated Parmesan
     quantity: 3
     units: tbsp
+    category: Dairy
   - name: Pancetta
     quantity: 0.5
     units: cup
+    category: Meat
   - name: Spaghetti
     quantity: 16
     units: oz
+    category: Pasta
