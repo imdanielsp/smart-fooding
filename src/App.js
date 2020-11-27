@@ -2,8 +2,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Navbar, Nav, Button, Form, Container, Card, ListGroup, Row, Col, Modal } from "react-bootstrap";
-import Recipes from "./recipes";
-import ConstantItems from "./constantItems";
+import Recipes from "./recipes.yml";
+import ConstantItems from "./constantItems.yml";
 
 let defaultNumOfRecipes = Recipes.length > 12 ? 12 : Recipes.length;
 let defaultRecipeFactor = 1;
@@ -87,7 +87,7 @@ const renderIngredientsList = (ingredients, factor, storage) => {
             value={ingredient[1].name}
             onClick={evt => storage.setItem(evt.target.value, evt.target.checked ? "checked" : "unchecked")}
             defaultChecked={storage.getItem(ingredient[1].name) === "checked" ? true : false}
-            label={`${(ingredient[1].quantity * factor) == 0 ? "" : ingredient[1].quantity * factor } ${ingredient[1].units} ${ingredient[1].name}`} />
+            label={`${(ingredient[1].quantity * factor) === 0 ? "" : ingredient[1].quantity * factor } ${ingredient[1].units} ${ingredient[1].name}`} />
         );
       })
     }
